@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Student-portal-demo</title>
+</head>
+<body style=text-align:center>
+<h2>Student application</h2>
+<form>
+Name:<input type="text"><br><br>
+Mail:<input type="text"><br><br>
+Mb.no:<input type="text"><br><br>
+</form>
+<h3>Gender</h3>
+<form>
+<input type="radio" name="gender" value="male">Male<br><br>
+<input type="radio" name="gender" value="female">Female<br><br>
+<input type="radio" name="gender" value="others">Others<br><br>
+</form>
+<h3>courses</h3>
+<form>
+<input type="checkbox" name="courses" value="Bsc">Bsc<br><br>
+<input type="checkbox" name="courses" value="Bca">Bca<br><br>
+<input type="checkbox" name="courses" value="Bcom">Bcom<br><br>
+</form>
+<h3>skills</h3>
+<form>
+<input type="checkbox" name="skills" value="HTML">HTML<br><br>
+<input type="checkbox" name="skills" value="CSS">CSS<br><br>
+<input type="checkbox" name="skills" value="JavaScript">Java Script<br><br>
+</form>
+<h2>Select Your Courses:</h2>
+<form>
+<input type="checkbox" name="skills" value="java">Java<br>
+<input type="checkbox" name="skills" value="c">C<br>
+<input type="checkbox" name="skills" value="python">Python<br>
+</form>
+<h2>Branch</h2>
+<form>
+<select name="Branch"><br><br>
+<option value="computer science">Computer Science</option><br><br>
+<option value="data science">Data Science</option><br><br>
+<option value="fisheries">Fisheries</option><br><br>
+<option value="microbiology">Microbiology</option><br><br>
+</select>
+</form>
+<h2>Year of Passing</h2>
+<form>
+<select name="Year of Passing"><br><br>
+<option value="2023">2023</option><br><br>
+<option value="2024">2024</option><br><br>
+<option value="2025">2025</option><br><br>
+<option value="2026">2026</option><br><br>
+</select>
+</form>
+<form>
+<input type=submit" value="Submit"><br><br>
+</form>
+</body>
+</html>
